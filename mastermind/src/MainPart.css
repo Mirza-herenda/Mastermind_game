@@ -1,0 +1,43 @@
+/* .peg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #777;
+  border-radius: 21px;
+  cursor: pointer;
+  background-color: #F0EAED;
+  margin: 3px;
+
+}
+
+.rules {
+  text-align: center;
+  font-style: italic;
+
+}
+
+.winnerSpan {
+  color: green;
+  margin-left: 40%;
+}
+
+.colorContainer {
+  text-align: center;
+  padding: 3px;
+}
+
+.rightContainer {
+  margin-top: -11%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.rightContainer span {
+  margin-right: 10%;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+} */

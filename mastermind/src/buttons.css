@@ -1,0 +1,89 @@
+.colors .color-holder,
+.board .peg {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+    margin-right: 8px;
+    border-radius: 21px;
+    cursor: pointer;
+    background-color: #f0eaed;
+    border: 1px solid black;
+}
+
+.colors .red,
+.circles .red {
+    background-color: #e42244;
+}
+
+.colors .green,
+.circles .green {
+    background-color: #70c030;
+}
+
+.colors .yellow,
+.circles .yellow {
+    background-color: yellow;
+}
+
+.colors .turquoise,
+.circles .turquoise {
+    background-color: #36bedd;
+}
+
+.colors .purple,
+.circles .purple {
+    background-color: #9f66df;
+}
+
+.colors .orange,
+.circles .orange {
+    background-color: orange;
+}
+
+.colors .active {
+    border: 2px solid black;
+    border-radius: 21px;
+}
+
+.showBtn {
+    margin-bottom: 5px;
+    font-size: 1.05em;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.hideBtn {
+    top: 10%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 1.05em;
+    cursor: pointer;
+    position: absolute;
+}
+
+.TryAgainBtn {
+    padding: 10px;
+    margin: 10px auto;
+    background-color: transparent;
+    color: black;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkBtn {
+    top: 0;
+    border: 1px solid black;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: gray;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}

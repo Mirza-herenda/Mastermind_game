@@ -1,0 +1,135 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/texture-background_1404-99.jpg?w=2000);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.board div {
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.circles {
+    margin-left: 5px;
+}
+
+.board {
+    font-size: medium;
+    padding: 16px 0;
+    color: beige;
+    margin-right: 12px;
+    cursor: pointer;
+    margin: 0 auto 3px auto;
+    text-align: center;
+}
+
+.check-button.hidden {
+    display: none;
+    cursor: default;
+}
+
+.hints span {
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    border: 1px solid gray;
+    background-color: #f0eaed;
+    margin: 15px 2px;
+}
+
+.hints span.exact {
+    background-color: #00bb22;
+}
+
+.hints span.partial {
+    background-color: #ddbb22;
+}
+
+.hidden {
+    display: none;
+}
+
+.color-holder {
+    cursor: default;
+}
+
+.solution a {
+    color: #338855;
+    font-size: 1.1em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.message {
+    color: black;
+    font-size: 50px;
+}
+
+
+.game-container {
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+    width: 450px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px dotted red;
+    border-radius: 5%;
+}
+
+
+
+.check-button.disabled {
+    background-color: grey;
+    color: rgb(202, 202, 202);
+    border: 1px solid grey;
+    cursor: default;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 10px;
+    color: black;
+}
+
+.hints {
+    margin-left: 10px;
+}
+
+.row.active {
+    margin: auto;
+    width: 350px;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+
+h2 {
+    color: black;
+}
